@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos&family=Lobster&display=swap');
+
+
+
+.ui.big.fluid.rounded.image {
+  height: 20em;
+}
+
+.ui.green.inverted.segment {
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.ui.div.a.item {
+  padding: 0px;
+}
+
+#dog {
+  height: 65px;
+  
+}
+#no-dog {
+  margin-top: 6px;
+}
+#dog-yes {
+  margin-top: 8px;
+}
+#greenBicycle {
+  margin-top: 8px;
+}
+
+#no-cycle {
+  margin-top: 6px;
+}
+#postCodeContainer {
+  margin-top: 10px;
+}
+
+#parkHeader {
+  font-size: 5em;
+  font-family: 'Genos', sans-serif !important;
+}
+
+.ui.image {
+  height: 20em;
+}
+
+.ui.vertical.left.aligned.segment {
+  padding-left: 10px;}
+  
+#homeHeader {
+  font-size: 55px;
+}
+
+#weather-main {
+  background-color: #b5cc18;
+}
+
+#header-main {
+  color:blue;
+  padding: 0 15px;
+  font-size: 18px;
+  font-family: 'Recursive', sans-serif;
+  margin-bottom: 0;
+}
+
+#blue-segment {
+  background-color:#80c1ff;
+}
+
+#day {
+  padding: 0 15px;
+  margin:0;
+  color:white;
+  font-family: 'Recursive', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#description {
+  padding: 0 15px;
+  margin: 5px 0 0 0;
+  color:blue;
+  font-family: 'Recursive', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#weather-column {
+  padding: 5px 0 0 0;
+  }
+
+#planner-input[placeholder] {
+  color: grey;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
+.homeCarousel img{
+height: 52em;
+object-fit: fill;
+}
+
+.ui.inverted.header.navbarTitle {
+  font-family: 'Lobster'!important;
+  font-size:3em !important;
+}
+
+.ui.green.inverted.vertical.segment {
+  margin-bottom: -15px;
+}
+
+.parkCardContainer{
+  margin-top: 40px;
+}
+
+.ui.raised.segment.regionTitle {
+  margin-top: 25px;
+  
+}
+
+a.item{
+  font-size: 22px;
+  font-weight: bold !important;
+  font-family: 'Genos', sans-serif !important;
+  padding: 2px !important;
+}
+
+.ui.header.homePageFooter {
+  font-family: 'Genos', sans-serif !important;
+  font-size: 3em;
+  font-weight: bold !important;
+}
+
+.ui.olive.inverted.segment {
+  margin-top: -100px;
+  opacity: 0.7;
+}
+
+.ui.olive.inverted.segment:hover {
+  opacity: 1;
+}
+#activities-segment {
+  min-height: 210px !important;
+  }
