@@ -62,7 +62,7 @@ Our Park Page contains a picture carousel, detailed information about the park -
 
 ![](/assets/images/parkPage.png)
 
-### Backend
+- ### Backend
 
 We decided to spend a few days building the backend all together before we moved to the front-end and split out to build feature by feature. My responsibility was to build a database and fill in all necessary information - images, description, possible activities, location, links.
 
@@ -74,7 +74,7 @@ To fill in the database it took me almost two days. We decided to filter parks b
 
 ![](/assets/images/data.png)
 
-### Front-End
+- ### Front-End
 
 When we sucesfully connected Backend with Frontend I started to work on creating and styling ParkPage, comments section and weather forecast for three days using Open Weather API.
 
