@@ -1,25 +1,30 @@
 # Project-3 Best London Parks
 
-Check our deployed version here
+![](/assets/images/demo.png)
+
+Check our deployed version [here](http://bestlondonparks.herokuapp.com/)
 
 Overview
 Third project for GA bootcamp as part of a team, Full-Stack MERN Application with CRUD functionality. As a group, we created an app with the objective to integrate information about the best London parks. We all worked full-stack whereas my responsibilities were: to build and fill in the database, to create comments functionality, build the weather forecast component using public OpenWeather API, as well as create and style the park page.
 
-Team
-Piotr Jankowski
-Matthew Baxendale
-Mariana Lozynska
+## Team
 
-Timeframe
+- [Piotr Jankowski](https://github.com/janek2204)
+- [Matthew Baxendale](https://github.com/mbaxendale22)
+- [Mariana Lozynska](https://github.com/mlozynska)
+
+## Timeframe
+
 9 days
 
-Installation
-Clone repo or download zip
-Run ‘yarn install’ in root folder to install dependencies
-Start the database in your terminal ‘mongod --dbpath ~/data/db’
-Start the backend server using ‘yarn serve’
-Change into frontend folder ‘cd front-end’
-Run the frontend ‘yarn start’
+## Installation
+
+- Clone repo or download zip
+- Run `yarn install` in root folder to install dependencies
+- Start the database in your terminal `mongod --dbpath ~/data/db`
+- Start the backend server using `yarn serve`
+- Change into frontend folder `cd front-end`
+- Run the frontend `yarn start`
 
 Brief
 As a group, create a Fullstack application with CRUD functionality using MERN stack – MongoDB, Express, React & Node.
