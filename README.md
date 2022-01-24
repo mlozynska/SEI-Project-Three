@@ -26,16 +26,24 @@ Third project for GA bootcamp as part of a team, Full-Stack MERN Application wit
 - Change into frontend folder `cd front-end`
 - Run the frontend `yarn start`
 
-Brief
+## Brief
+
 As a group, create a Fullstack application with CRUD functionality using MERN stack – MongoDB, Express, React & Node.
 
-Technologies used
-Backend: Node.js, MongoDB, Express, BCrypt, Mongoose, JWT (jsonwebtoken)
-Frontend: React.js, Axios, Semantic UI React, React Router Dom, React Mapbox GL, React Responsive Carousel, React Toastify, cloudinary.com (image host service), OpenWeather API, TFL search travel tool
-Development tools: (VS Code, yarn, Insomnia, Heroku, Figma, Git/GitHub)
+## Technologies used
 
-Approach
+- ### Backend:
+  Node.js, MongoDB, Express, BCrypt, Mongoose, JWT (jsonwebtoken)
+- ### Frontend:
+  React.js, Axios, Semantic UI React, React Router Dom, React Mapbox GL, React Responsive Carousel, React Toastify, cloudinary.com (image host service), OpenWeather API, TFL search travel tool
+- ### Development tools:
+  VS Code, yarn, Insomnia, Heroku, Figma, Git/GitHub
+
+## Approach
+
 We spent the first day deciding on an idea as well as planning our project with building wireframes. It definitely has helped us to be organised knowing exactly what features we are building and when. Here are our initial wireframes for the project.
+
+![](/assets/images/wireFrames.png)
 
 At the beginning of our project, we agreed as a group that we would meet twice a day. Every morning, we did a stand-up meeting to discuss our plan for the day. Another meeting was held in the afternoon to discuss progress or any issues we were having. If some difficulties arose during the day between the meetings the team would either pair code to find solutions or meet together to discuss. For communication we used Slack and Zoom.
 It was the first-time team cooperation when we had to start working on our own individual branches in GitHub. We made the decision to do pushes and pulls all together to avoid potential merging conflicts.
@@ -45,7 +53,11 @@ After that we were ready to start with frontend. We divided our tasks and respon
 
 Our application has three main pages which are Home, All Parks and Park Page. On Home page users can choose a region by which to filter parks – North, Central, South, East, West London or to see All Parks.
 
+![](/assets/images/homeANDRegion.png)
+
 Our Park Page contains a picture carousel, detailed information about the park - weather forecast, suggested activities, a map showing the park’s location, an option to get real-time travel information, to leave a comment and rating to the park, as well as adding park to the list of favourite parks.
+
+![](/assets/images/parkPage.png)
 
     Backend
 
