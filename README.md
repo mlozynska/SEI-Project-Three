@@ -20,7 +20,7 @@ Third project for GA bootcamp as part of a team, Full-Stack MERN Application wit
 ## Installation
 
 - Clone repo or download zip
-- Run `yarn install` in root folder to install dependencies
+- Run `yarn` in root folder to install dependencies
 - Start the database in your terminal `mongod --dbpath ~/data/db`
 - Start the backend server using `yarn serve`
 - Change into frontend folder `cd front-end`
