@@ -46,9 +46,12 @@ We spent the first day deciding on an idea as well as planning our project with 
 ![](/assets/images/wireFrames.png)
 
 At the beginning of our project, we agreed as a group that we would meet twice a day. Every morning, we did a stand-up meeting to discuss our plan for the day. Another meeting was held in the afternoon to discuss progress or any issues we were having. If some difficulties arose during the day between the meetings the team would either pair code to find solutions or meet together to discuss. For communication we used Slack and Zoom.
+
 It was the first-time team cooperation when we had to start working on our own individual branches in GitHub. We made the decision to do pushes and pulls all together to avoid potential merging conflicts.
+
 Next three days, we dedicated ourselves to the backend. As all of us wanted to work both on backend and frontend, we agreed that it would be a good idea to split the process of building the models’ schemas, routes and controllers between us. Matthew took on models, Piotr started to build routes for all three models and my responsibility was to build and fill in the database. At the end of day 4, we sorted out routes, models and seeded databases.
 We connected the backend with the frontend and tested all routes with the help of HTTP-proxy-middleware. This lets us work on both parts to easily apply any changes without going through the build process each time.
+
 After that we were ready to start with frontend. We divided our tasks and responsibilities. Matthew started to work on filtering parks, adding ratings and travel information to certain parks, on the possibility to mark a park as favourite. Piotr took over design of HomePage and AllParks components, user registration and login, uploading images with cloudinary.com, user profile page and MapBox. I took over ParkPage design, comments functionality, OpenWeather API with the next 3-day forecasts.
 
 Our application has three main pages which are Home, All Parks and Park Page. On Home page users can choose a region by which to filter parks – North, Central, South, East, West London or to see All Parks.
