@@ -65,19 +65,33 @@ Our Park Page contains a picture carousel, detailed information about the park -
 ### Backend
 
 We decided to spend a few days building the backend all together before we moved to the front-end and split out to build feature by feature. My responsibility was to build a database and fill in all necessary information - images, description, possible activities, location, links.
+
 As a team we decided that our park model will look like this:
 
+![](/assets/images/backEnd.png)
+
 To fill in the database it took me almost two days. We decided to filter parks by region, and for each region we wanted to display at least five parks. Our app has information about 25 parks. On ParkPage we wanted to display an image carousel, for that for each park we needed 5-7 nice quality images. I did not expect that it would take me so long to find all the necessary information.
+
+![](/assets/images/data.png)
 
 ### Front-End
 
 When we sucesfully connected Backend with Frontend I started to work on creating and styling ParkPage, comments section and weather forecast for three days using Open Weather API.
 
+![](/assets/images/parkPage.png)
+
 With comments I started with displaying on the page existing comments.
+
+![](/assets/images/useEffect.png)
+![](/assets/images/form.png)
 
 To add the comment I used handleChange function and handleSubmit function.
 
+![](/assets/images/handleChange.png)
+
 To create a weather block I created a new Component and made a get request to display the forecast for three days.
+
+![](/assets/images/API.png)
 
 For styling we used Semantic UI CSS framework, it took me some time to find out how to display all infpormation about the park in a nice and informative way. The most challenging with styling was to create responsive design.
 
